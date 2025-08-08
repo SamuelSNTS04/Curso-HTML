@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="./index.html">Página principal</a></li>
+                <li><a href="./sobre-clinica.html">Sobre a clínica</a></li>
+                <li><a href="./horario-atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./contato.jpg" width="400"/>
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content">
+
+                <table border="1" align="center">
+                    <tr>
+                        <td>Email</td>
+                        <td>Telefone</td>
+                        <td>Endereço</td>
+                    </tr>
+                    <tr>
+                        <td>sensipetbrasilia@gmail.com</td>
+                        <td>(61) 99553-6649 - whatsapp<br /> (61) 3225-4033 - telefone</td>
+                        <td>SCLS 113 BLOCO C LOJAS 33/34 <br /> Asa Sul, Brasília - DF, 70376-530</td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d16174.468717839594!2d-47.904424!3d-15.820436000000003!3m2!1i1024!2i768!4f13.1!2m1!1sSCLS%20113%20BLOCO%20C%20LOJAS%2033%2F34%20-%20Asa%20Sul%2C%20Bras%C3%ADlia%20-%20DF%2C%2070376-530!5e1!3m2!1spt-BR!2sus!4v1754591641507!5m2!1spt-BR!2sus"
+                    width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" ali>
+                </iframe>
+                <br />
+                <br />
+
+                <form name="signup" method="post">
+                    <label>Nome: </label><input type="text" name="name" /><br />
+                    <label>E-mail: </label><input type="email" name="email" /><br />
+                    <label>Assunto: </label><input type="text" name="subject" /><br />
+                    <label>Mensagem: </label>
+                    <textarea name="message"></textarea><br />
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Apagar</button>
+                </form>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+
+            <div class="footer">
+                <h3 align="center"><strong>Fale conosco</strong></h3>
+                <table border="1" align="center">
+                    <tr>
+                        <td>Email</td>
+                        <td>Telefone</td>
+                    </tr>
+                    <tr>
+                        <td>sensipetbrasilia@gmail.com</td>
+                        <td>(61) 99553-6649 - whatsapp</td>
+                    </tr>
+                </table>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
